@@ -1,7 +1,7 @@
 # Mini-workshop on Algebraic Geometry and Several Complex Variables in Fukuoka
 
 ## 情報
-- 日時: 2024年5月14日（水）-- 16日（金）
+- 日時: 2025年5月14日（水）-- 16日（金）
 - 場所: 福岡工業大学
 
 ## 講演者
