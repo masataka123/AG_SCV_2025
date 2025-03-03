@@ -1,8 +1,8 @@
 # Mini-workshop on Algebraic Geometry and Several Complex Variables in Fukuoka
 
 ## 情報
-- 日時: 2025年5月14日（水）-- 16日（金）
-- 場所: 福岡工業大学
+- 日時: 2025年5月14日（水）午後-- 16日（金）
+- 場所: 福岡工業大学 A21講義室(5/14)・B36講義室(5/15, 5/16)
 
 ## 講演者
 
@@ -16,11 +16,10 @@
 - 村上 怜 (東北大学)
 - 山ノ井 克俊 (大阪大学)
 - 山盛 厚伺 (福岡工業大学)
-T.B.A.
 
 
 ## スケジュール
-講演者の数によってスケジュールは変わる可能性があります. 
+時間に関しては変更の可能性があります.
 
 ### 2025年5月14日（水）
 
@@ -180,6 +179,24 @@ Kodaira vanishing for smooth Fano threefolds in positive characteristic
 <!--
 Here is the PDF file of program and abstracts. [Program](https://masataka123.github.io/tangent_anticanonical/material/program_tangent_anticanonical.pdf)
 -->
+
+
+## アクセス方法
+
+### 福岡工業大学へのアクセス.
+
+福岡工業大学の[交通アクセス](https://www.fit.ac.jp/shisetsu/campus/)のページを見る限り, 福岡工業大学の最寄の駅・バス停は以下の二つがあるようです. 
+
+1. JR福工大前駅 (電車)
+2. 西鉄バス福工大前 (バス)
+
+### A21講義室(5/14)・B36講義室(5/15, 5/16)へのアクセス
+
+詳しくは福岡工業大学の[学内マップ](https://www.fit.ac.jp/shisetsu/campus/map/)をご覧ください.
+なお
+- 5/14は[A棟](https://www.fit.ac.jp/shisetsu/campus/map/a_building)2階A21講義室
+- 5/15, 5/16は[B棟](https://www.fit.ac.jp/shisetsu/campus/map/b_building)3階B36講義室
+を利用いたします.
 
 <!--
 
