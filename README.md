@@ -194,8 +194,10 @@ Here is the PDF file of program and abstracts. [Program](https://masataka123.git
 
 詳しくは福岡工業大学の[学内マップ](https://www.fit.ac.jp/shisetsu/campus/map/)をご覧ください.
 なお
+
 - 5/14は[A棟](https://www.fit.ac.jp/shisetsu/campus/map/a_building)2階A21講義室
 - 5/15, 5/16は[B棟](https://www.fit.ac.jp/shisetsu/campus/map/b_building)3階B36講義室
+
 を利用いたします.
 
 <!--
