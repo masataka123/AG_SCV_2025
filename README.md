@@ -25,69 +25,47 @@
 ### 2025年5月14日（水）
 
 1. 13:30--14:30 
-T.B.A
+**村上 怜 (東北大学)**<br>
+k-Hessian方程式とNakai-Moishezon型判定法
 2. 15:00--16:00 
-T.B.A
+**大沢 健夫 (名古屋大学)**<br>
+グラウエルトの例外集合の理論について 
 3. 16:30--17:30 
-T.B.A
+**榎園 誠 (東京大学)**<br>
+複素解析空間の射影射に対する安定還元について
 
 ### 2025年5月15日（木）
 1. 10:00--11:00
-T.B.A
+**橋詰 健太 (新潟大学)**<br>
+On minimal model program for log canonical pairs in complex analytic setting 
 2. 11:30-12:30
-T.B.A
+**杉山 俊 (北九州工業高等専門学校)**<br>
+リーマン領域上でのCartier因子と局所Stein性
 3. 14:00--15:00 
-T.B.A
+**山盛 厚伺 (福岡工業大学)**<br>
+ラインハルト領域上のベルグマン空間の構造と正則自己同型群の剛性
 4. 15:30--16:30 
-T.B.A
+**神本 丈 (九州大学)**<br>
+局所ゼータ関数の正則性と特異性
 
 ### 2025年5月16日（金）
 1. 10:00--11:00
-T.B.A
+**藤田 健人 (大阪大学)**<br>
+Smooth prime Fano threefolds of degree 22 with infinite automorphism groups 
 2. 11:30-12:30
-T.B.A
+**赤池 広都 (東北大学)**<br>
+Normal stable degenerations of Noether-Horikawa surfaces
 3. 14:00--15:00 
-T.B.A
+**山ノ井 克俊 (大阪大学)**<br>
+T.B.A.
 4. 15:30--16:30 
-T.B.A
+**千葉 優作 (お茶の水大学)**<br>
+ボーア・ゾンマーフェルト ラグランジュ部分多様体と正則切断の漸近挙動について
 5. 16:30-18:00
 Free discussion
 
 
 <!--
-
-### 2025年5月14日（水）
-
-1. 13:30--14:30 
-T.B.A
-2. 14:50--15:50 
-T.B.A
-3. 16:10--17:10 
-T.B.A
-
-### 2025年5月15日（木）
-1. 9:40--10:40
-T.B.A
-2. 11:00-12:00
-T.B.A
-3. 13:30--14:30 
-T.B.A
-4. 14:50--15:50 
-T.B.A
-5. 16:10--17:10 
-T.B.A
-
-### 2025年5月16日（金）
-1. 9:40--10:40
-T.B.A
-2. 11:00-12:00
-T.B.A
-3. 13:30--14:30 
-T.B.A
-4. 14:50--15:50 
-T.B.A
-5. 16:10--17:10 
-T.B.A
 
 
 ### 2024年12月13日（金）
@@ -173,15 +151,21 @@ Kodaira vanishing for smooth Fano threefolds in positive characteristic
 
 ##  プログラム
 
+[プログラム](https://masataka123.github.io/AG_SCV_2025/material/program_2025_AG_SCV.pdf)
+
+## 懇親会
+懇親会を以下の通りに開催いたします. 
+
+- 日時：5 月15 日（木）18 時から
+- 場所：もつ鍋一藤 博多店
+- 会費：5500 円前後
+
+懇親会に参加される方は**5月7日(水)までに**こちらの[Google フォーム](https://forms.gle/B15junMWtZust5GD8)に参加登録をしていただければ幸いです. 
+
+
 <!--
-
-[2024年度多変数関数論冬セミナーのプログラム](https://masataka123.github.io/2024scvwinter/material/program_2024scvwinter.pdf)
-
--->
-
-
 2025年4月ごろにお知らせいたします. 
-
+-->
 <!--
 Here is the PDF file of program and abstracts. [Program](https://masataka123.github.io/tangent_anticanonical/material/program_tangent_anticanonical.pdf)
 -->
