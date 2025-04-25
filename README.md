@@ -19,8 +19,11 @@
 - 山盛 厚伺 (福岡工業大学)
 
 
-## スケジュール
-時間に関しては変更の可能性があります.
+## スケジュール・プログラム
+
+スケジュールは以下の通りになります. 
+なお[プログラム](https://masataka123.github.io/AG_SCV_2025/material/program_2025_AG_SCV.pdf)
+にも同じものを掲載しております. 
 
 ### 2025年5月14日（水）
 
@@ -63,7 +66,6 @@ T.B.A.
 ボーア・ゾンマーフェルト ラグランジュ部分多様体と正則切断の漸近挙動について
 5. 16:30-18:00
 Free discussion
-
 
 <!--
 
@@ -149,9 +151,8 @@ Rank two weak Fano bundles over Fano threefolds of Picard rank one
 Kodaira vanishing for smooth Fano threefolds in positive characteristic
 -->
 
-##  プログラム
 
-[プログラム](https://masataka123.github.io/AG_SCV_2025/material/program_2025_AG_SCV.pdf)
+
 
 ## 懇親会
 懇親会を以下の通りに開催いたします. 
