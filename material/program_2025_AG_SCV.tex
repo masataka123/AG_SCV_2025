@@ -1,0 +1,425 @@
+\documentclass[dvipdfmx,a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+%\usepackage[dvipdfmx]{hyperref} %リンクを有効にする
+\usepackage{url} %同上
+\usepackage{amsmath,amssymb} %もちろん
+\usepackage{amsfonts,amsthm,mathtools} %もちろん
+\usepackage{braket,physics} %あると便利なやつ
+\usepackage{bm} %ラプラシアンで使った
+\usepackage[top=30truemm,bottom=20truemm,left=25truemm,right=25truemm]{geometry} %余白設定
+\usepackage{latexsym} %ごくたまに必要になる
+\renewcommand{\kanjifamilydefault}{\gtdefault}
+\usepackage{otf} %宗教上の理由でmin10が嫌いなので
+
+
+\usepackage[all]{xy}
+\usepackage{amsthm,amsmath,amssymb,comment}
+\usepackage{amsmath}    % \UTF{00E6}\UTF{0095}°\UTF{00E5}\UTF{00AD}\UTF{00A6}\UTF{00E7}\UTF{0094}¨
+\usepackage{amssymb}  
+\usepackage{color}
+\usepackage{amscd}
+\usepackage{amsthm}  
+\usepackage{wrapfig}
+\usepackage{comment}	
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{pxrubrica}
+\usepackage{enumitem}
+\usepackage{mathrsfs} 
+\usepackage[dvipdfmx]{hyperref}
+\setstretch{1.2}
+
+\newcommand{\mathsym}[1]{{}}
+\newcommand{\unicode}[1]{{}}
+
+\newcounter{mathematicapage}
+
+
+%%%%%%%%% Theorem-like environment %%%%%%%%%%%
+%
+\theoremstyle{plain} %text of this environment is typesetted in italics
+\newtheorem{theorem}{\indent\sc Theorem}[section]
+\newtheorem{lemma}[theorem]{\indent\sc Lemma}
+\newtheorem{corollary}[theorem]{\indent\sc Corollary}
+\newtheorem{proposition}[theorem]{\indent\sc Proposition}
+\newtheorem{claim}[theorem]{\indent\sc Claim}
+\newtheorem{conjecture}[theorem]{\indent\sc Conjecture}
+%
+\theoremstyle{definition} %text of this environment is typesetted in roman letters
+\newtheorem{definition}[theorem]{\indent\sc Definition}
+\newtheorem{remark}[theorem]{\indent\sc Remark}
+\newtheorem{example}[theorem]{\indent\sc Example}
+\newtheorem{notation}[theorem]{\indent\sc Notation}
+\newtheorem{assertion}[theorem]{\indent\sc Assertion}
+\newtheorem{observation}[theorem]{\indent\sc Observation}
+\newtheorem{problem}[theorem]{\indent\sc Problem}
+\newtheorem{question}[theorem]{\indent\sc Question}
+%
+%If a theorem-like environment should not be numbered,
+%add * after \newtheorem, and delete the counter option such as [theorem].
+\newtheorem*{remark0}{\indent\sc Remark}
+%
+%%%%% Proof %%%%%
+\renewcommand{\proofname}{\indent\sc Proof.}
+%The following commands are available in the proof environment:
+%\begin{proof}
+%\end{proof}
+%The end of a proof is marked with a square.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+  {\LARGE Mini-workshop on Algebraic Geometry and  \\ Several Complex Variables in Fukuoka}
+ 
+  %{\large -Around positivity of tangent sheaves and anti-canonical divisors-}
+  %\vskip2mm{\LARGE Prospects and Open Problems \\ in Higher-dimensional Algebraic Geometry}
+  \end{center}
+  
+\vskip5mm
+\begin{flushleft}
+{\large 日時: 2025年5月14日（水）午後 -- 16日（金）}
+
+
+{\large 場所: 福岡工業大学 A21講義室(5/14)・B36講義室(5/15, 5/16)
+}
+
+\end{flushleft}
+
+
+%\footnote{ホームページ: \texttt{https://sites.google.com/site/hisashikasuyamath/workshop-on-complex-geometry-in-osaka-2023?authuser=0}}
+%\footnote{This conference is supported by Osaka City University Advanced Mathematical Institute: MEXT Joint Usage/Research Center on Mathematics and Theoretical Physics.}
+
+
+\vskip5mm
+\noindent{\Large \bf プログラム}
+\vskip3mm
+
+\noindent{\bf 5/14 (水)}
+\vskip1mm
+\noindent {\bf 13:30-14:30}
+{\bf 村上 怜 (東北大学)}\\
+$k$-Hessian方程式とNakai-Moishezon型判定法
+\vskip3mm
+
+\noindent {\bf 15:00-16:00} 
+{\bf 大沢 健夫 (名古屋大学)}\\
+グラウエルトの例外集合の理論について 
+\vskip3mm
+
+\noindent {\bf 16:30-17:30} 
+{\bf 榎園 誠 (東京大学)}\\
+複素解析空間の射影射に対する安定還元について
+
+\vskip5mm
+
+
+\noindent{\bf 5/15 (木)}
+\vskip1mm
+\noindent {\bf 10:00-11:00}
+{\bf 橋詰 健太 (新潟大学)}\\
+On minimal model program for log canonical pairs in complex analytic setting 
+\vskip3mm
+
+\noindent {\bf 11:30-12:30}
+{\bf  杉山 俊 (北九州工業高等専門学校)}\\
+リーマン領域上でのCartier因子と局所Stein性
+\vskip3mm
+
+\noindent {\bf 14:00-15:00} 
+{\bf 山盛 厚伺 (福岡工業大学) }\\
+ラインハルト領域上のベルグマン空間の構造と正則自己同型群の剛性
+\vskip3mm
+
+\noindent {\bf15:30-16:30} 
+{\bf 神本 丈 (九州大学)}\\
+局所ゼータ関数の正則性と特異性
+
+\vskip5mm
+
+\noindent{\bf 5/16 (金)}
+\vskip1mm
+\noindent {\bf 10:00-11:00}
+{\bf 藤田 健人 (大阪大学)}\\
+Smooth prime Fano threefolds of degree 22 with infinite automorphism groups 
+\vskip3mm
+
+\noindent {\bf 11:30-12:30}
+{\bf 赤池 広都 (東北大学)}\\
+Normal stable degenerations of Noether-Horikawa surfaces
+\vskip3mm
+
+\noindent {\bf 14:00-15:00} 
+{\bf 山ノ井 克俊 (大阪大学) }\\
+T.B.A
+\vskip3mm
+
+\noindent {\bf 15:00-16:30} 
+{\bf 千葉 優作 (お茶の水大学)}\\
+ボーア・ゾンマーフェルト ラグランジュ部分多様体と正則切断の漸近挙動について
+
+\newpage 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{comment}
+
+\begin{center}
+テイムテーブル(敬称略)
+\end{center}
+\begin{center}
+\hspace{-22pt}
+\begin{tabular}{|c|c|c|c|}
+  \hline
+			  & 12/13 (金) & 12/14 (土) &12/15(日)  \\
+  \hline
+ 10:00-11:00&   & 山ノ井 & 奥間\\
+  \hline
+ 11:30-12:30& \begin{tabular}{c}丸亀\\(13:00-14:00) \end{tabular}& 鈴木  & 杉山   \\
+  \hline
+ 14:30-15:30& 松田& 上野 & \\
+  \hline
+ 16:00-17:00&  渡邊& 青井 &  \\
+   \hline
+\end{tabular}
+\end{center}
+\end{comment}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{comment}
+
+\vskip10mm
+\hspace{-22pt}
+\begin{tabular}{|c|c|}
+  \hline
+			  & 9/17 \\
+  \hline
+ 13:00-14:00& Sho Tanimoto\\
+  \hline
+ 14:30-15:30& Takuzo Okada\\
+  \hline
+ 16:00-17:00&  Taro Yoshino   \\
+   \hline
+\end{tabular}
+\vskip5mm
+
+\hspace{-22pt}
+\begin{tabular}{|c|c|c|c|}
+  \hline
+			  & 9/18&9/19 & 9/20 \\
+  \hline
+ 10:00-11:00&    Akihiro Kanemitsu & Hirotaka Onuki & Hara Wahei \\
+  \hline
+ 11:30-12:30&  Jie Liu  & Fuetaro Yobuko& Tatsuro Kawakami   \\
+  \hline
+ 14:30-15:30& Juanyong Wang & Hiromu Tanaka& \\
+  \hline
+ 16:00-17:00&   Guolei Zhong & Yuta Takahashi &  \\
+   \hline
+\end{tabular}
+
+\begin{itemize}
+  \setlength{\parskip}{0cm} 
+  \setlength{\itemsep}{0cm}
+  \item[補足1. ] \underline{コース予約をする都合上, 無断キャンセルのしないようにお願いします.} 
+この懇親会の登録後に, 都合がつかなくなって懇親会のキャンセルをする場合は, 5月7日（水）までに岩井（masataka@math.sci.osaka-u.ac.jp）に必ずお知らせください. 
+\item[補足2. ]5500円のコースを予約する予定です。学生・ポスドクの方は5500円より低くなる可能性があり、その他（教員等）の方は5500円より高くなる可能性があります。
+\item[補足3. ] 当日会費を集金しますので、1000円札や5000円札などのご用意をお願いいたします。
+  \end{itemize}
+
+\begin{itemize}
+  \setlength{\parskip}{0cm} 
+  \setlength{\itemsep}{0cm}
+\item 5/14はA棟2階A21講義室
+\item 5/15, 5/16はB棟3階B36講義室
+\end{itemize}
+を利用いたします.
+部屋を間違えないようにご注意ください. 
+
+\end{comment}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+  
+  
+\noindent{\large \bf 補助}
+
+この集会は以下の科学研究費補助金の補助により開催されます.
+\begin{itemize}
+  \setlength{\parskip}{0cm} 
+  \setlength{\itemsep}{0cm}
+\item 若手研究「オービフォルド構造に注目した非負曲率の研究および代数多様体の分類理論への応用」
+ (代表：岩井 雅崇（大阪大学） 課題番号22K13907)
+  \end{itemize}
+
+\vskip5mm
+\noindent{\large 懇親会のお知らせ}
+
+懇親会を以下の通りに開催いたします.
+\begin{itemize}
+  \setlength{\parskip}{0cm} 
+  \setlength{\itemsep}{0cm}
+\item[日時] 5月15日（木）18時から
+\item[場所] もつ鍋 一藤　博多店
+\item[会費] 5500円前後 
+  \end{itemize}
+  
+懇親会の参加希望者は\underline{5月7日（水）までに}こちらのフォームを記入してください.
+\begin{center}
+  \url{https://forms.gle/B15junMWtZust5GD8}
+  \end{center}
+
+\vskip5mm
+\noindent{\large \bf 会場へのアクセス}
+
+福岡工業大学の交通アクセスのページを見る限り, 福岡工業大学の最寄の駅・バス停は以下の二つがあるようです.
+\begin{itemize}
+  \setlength{\parskip}{0cm} 
+  \setlength{\itemsep}{0cm}
+\item JR福工大前駅 (電車) JR博多駅からJR鹿児島本線(上り)快速約15分で到着します.
+\item 西鉄バス福工大前 (バス) 　西鉄バス天神から西鉄バス[26A][23][26]で30--40分で到着します.
+\end{itemize}
+
+またA21講義室(5/14)・B36講義室(5/15, 5/16)へのアクセスについては, 詳しくは福岡工業大学の学内マップをご覧ください. 
+
+集会のホームページ( \url{https://masataka123.github.io/AG_SCV_2025/} )にて詳しいアクセス方法を掲載しております. 下のQRコードからでも集会のホームページを見ることができます. 
+
+\begin{figure}[htbp]
+\begin{center}
+ \includegraphics[height=30mm, width=30mm]{2025AGSCV.png}
+\end{center}
+\end{figure}
+
+  \vskip5mm
+  
+  \noindent{\large \bf 世話人}
+\begin{itemize}
+  \setlength{\parskip}{0cm} 
+  \setlength{\itemsep}{0cm}
+\item 井上 瑛二 (京都大学)
+\item 岩井 雅崇 (大阪大学)
+\item 日下部 佑太 (九州大学)
+\item 野瀬 敏洋 (福岡工業大学)
+\item 松村 慎一 (東北大学)
+  \end{itemize}
+
+
+\newpage
+
+\noindent{\Large \bf アブストラクト}
+\vskip5mm
+
+\noindent{\large \bf 5/14 (水曜日)}
+\vskip5mm
+\noindent{\bf 村上 怜 (東北大学)}\\
+$k$-Hessian方程式とNakai-Moishezon型判定法
+\vskip3mm
+Nakai-Moishezon判定法は，線束の豊富性(小平の定理により曲率の正値性と一致）と交叉数の正値性(数値的正値性）の一致を主張する．そしてYauの定理は，線束上のMonge-Ampere方程式の正曲率解の存在と線束の豊富性の一致を主張しているとも取れる．近年ではこれを元に，「PDEの(適切な意味での)解の存在」と「曲率の正値性」と「数値的正値性」が一致するという哲学が浸透しつつある．本講演では，$k$-Hessian方程式(とその一般化)と呼ばれるMonge-Ampere方程式を$k$空間次元で含む方程式を考え，具体例で上記の「一致」を観察する．また， Andreotti-Grauertによる$q$-正値性(と$q$-豊富性)との関係も述べる．
+\vskip8mm
+
+\noindent{\bf 大沢 健夫 (名古屋大学)}\\
+グラウエルトの例外集合の理論について 
+\vskip3mm
+Grauertの論文"\"Uber Modifikationen und exzeptionelle analytische Mengen"の解説をし、例外集合およびformal principleに関する諸結果を紹介する。 
+\vskip8mm
+
+\noindent {\bf 榎園 誠 (東京大学)}\\
+複素解析空間の射影射に対する安定還元について
+\vskip3mm
+代数多様体または複素解析空間の射に対する安定還元定理とは、適当な底変換と双有理的変換によって性質の良いファイバーを持つ射に変換できることを主張する定理である。これは複素射影多様体に対しては、AbramovichとKaruによって証明されている。
+本講演では、シュタイン空間上射影的な複素解析空間に対し安定還元定理が成り立つことを紹介し、その証明のアイデアを述べる。また複素解析多様体に対する極小モデル理論への応用についても（時間が許せば）説明する。本講演は橋詰健太氏（新潟大学）との共同研究に基づいている。
+\vskip5mm
+
+\newpage
+
+\noindent{\large \bf 5/15 (木曜日)}
+\vskip5mm
+
+\noindent{\bf 橋詰 健太 (新潟大学)}\\
+On minimal model program for log canonical pairs in complex analytic setting 
+\vskip3mm
+Remarkable progress has been made in recent years in the field of the minimal model theory for complex algebraic varieties. The first breakthrough was brought by Birkar, Cascini, Hacon and McKernan. In 2022, Fujino generalized their results to projective morphisms between complex analytic spaces. This is the first step of the minimal model theory in the complex analytic setting. In this talk, I will introduce recent progress of the minimal model theory for log canonical pairs in complex analytic setting. This talk contains joint works with Makoto Enokizono.
+
+\vskip8mm
+
+
+\noindent {\bf  杉山 俊 (北九州工業高等専門学校)}\\
+リーマン領域上でのCartier因子と局所Stein性
+\vskip3mm
+本講演では、Cohen-MacaulayなStein空間上のリーマン領域に対して、すべての位相的自明な正則直線束がCartier因子に対応するならば、そのリーマン領域が正則境界点において局所Steinであることを示す定理について解説する。特に、次元が2のときにはリーマン領域の張り合わせ法を用い、一般次元の場合にはLelong typeの補題を用いた次元帰納法を用いる。本研究は、従来Breaz-Vâjâituらによって主張されていた結果に対して、Cohen-Macaulay性と被覆の構成を通じて別の証明を与えるものである。また、Stein多様体上のリーマン領域に対するStein性の特徴づけも帰結として得られる。
+\vskip8mm
+
+
+\noindent {\bf 山盛 厚伺 (福岡工業大学) }\\
+ラインハルト領域上のベルグマン空間の構造と正則自己同型群の剛性
+
+\vskip3mm
+Wiegerinck(1984)により, 有限次元ベルグマン空間を持つラインハルト領域が構成された. これは有界ラインハルト領域では存在しえない「病的」な例である. 本講演では, あるタイプの有限次元ベルグマン空間を持つラインハルト領域では, 正則自己同型群の観点から別の「病的」な現象も起こることを説明する. 時間が許す限り, 主結果の具体例とその応用についても触れる.
+\vskip8mm
+
+\newpage
+
+\noindent {\bf 神本 丈 (九州大学)}\\
+局所ゼータ関数の正則性と特異性
+\vskip3mm
+ 局所ゼータ関数の解析には、代数幾何や特異点論的な
+アプローチが非常に有効であることが、Varchenkoの
+研究以来強く認識されてきており、
+特に、考える関数に解析性を仮定した場合には、
+多くの面白い成果が得られている。
+しかしながら、考える関数を一般に可微分関数に
+した場合には、局所ゼータ関数の解析接続に関して、
+本質的に新たな現象が見られ、多くの問題が提起される。
+これらの状況についての説明を行った後、最近、
+野瀬敏洋氏、水野宏真氏との共同研究から
+得られた成果などについて説明する。
+これらの研究は、多変数複素解析学における問題に
+動機があり、そのことについても言及したい。
+\vskip10mm
+
+\noindent{\large \bf 5/16 (金曜日)}
+\vskip3mm
+\noindent {\bf 藤田 健人 (大阪大学)}\\
+Smooth prime Fano threefolds of degree 22 with infinite automorphism groups 
+\vskip3mm
+All smooth prime Fano threefolds of degree 22 with infinite automorphism groups
+are understood dueto Prokhorov, Kuznetsov and Shramov by use of deep studies of
+their Hilbert schemes of lines. I will present as our joint work with
+Adrien Dubouloz and Takashi Kishimoto an alternative and self-contained
+proof of it, allowing us to use several properties on
+the smooth quintic del Pezzo threefold. 
+
+\vskip8mm
+
+\noindent {\bf 赤池 広都 (東北大学)}\\
+Normal stable degenerations of Noether-Horikawa surfaces
+\vskip3mm
+Minimal surfaces of general type satisfy Noether's inequality $K^2 \geq 2p_g - 4$. A minimal surface of general type that achieves the equality $K^2 = 2p_g - 4$ is called a Noether-Horikawa surface. Horikawa thoroughly studied these surfaces in the 1970s.
+The moduli space of Noether-Horikawa surfaces admits a KSBA compactification. To explore these boundaries, we classified the normal stable degenerations of Noether-Horikawa surfaces.
+In this talk, I will present three main topics: first, Horikawa's study on Noether-Horikawa surfaces; second, the context of our study from the perspective of KSBA moduli theory; and finally, our result--the classification of the normal stable degenerations of Noether-Horikawa surfaces.
+This is joint work with Makoto Enokizono, Masafumi Hattori, and Yuki Koto.
+\vskip8mm
+\newpage
+
+\noindent {\bf 山ノ井 克俊 (大阪大学) }\\
+T.B.A
+\vskip3mm
+T.B.A.
+\vskip8mm
+
+
+\noindent {\bf 千葉 優作 (お茶の水大学)}\\
+ボーア・ゾンマーフェルト ラグランジュ部分多様体と正則切断の漸近挙動について
+\vskip3mm
+ボーア・ゾンマーフェルト ラグランジュ部分多様体と正則切断の漸近挙動について
+アブストラクト：ケーラー多様体上の前量子化束とボーア・ゾンマーフェルト ラグランジュ(BSL)部分多様体を考える。BSL部分多様体とは、前量子化束とその接続の制限が自明となるラグランジュ部分多様体で、幾何学的量子化の観点から多くの研究がある。BSL部分多様体上の連続切断は、前量子化束の高次テンソルを取ることで正則切断により近似することができる。ここでは、このような正則切断の近似列の具体的な構成法を紹介する。さらに連続切断の量子化により得られる正則切断は、最も小さい $L^2$ノルムで連続切断を近似するという意味で自然な近似列であることを説明したい。
+\vskip8mm
+
+
+
+
+\end{document}
