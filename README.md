@@ -158,7 +158,7 @@ Kodaira vanishing for smooth Fano threefolds in positive characteristic
 懇親会を以下の通りに開催いたします. 
 
 - 日時：5 月15 日（木）18 時から
-- 場所：もつ鍋一藤 博多店
+- 場所：[もつ鍋一藤 博多店](https://www.hotpepper.jp/strJ001127282/)
 - 会費：5500 円前後
 
 懇親会に参加される方は**5月7日(水)までに**こちらの[Google フォーム](https://forms.gle/B15junMWtZust5GD8)に参加登録をしていただければ幸いです. 
