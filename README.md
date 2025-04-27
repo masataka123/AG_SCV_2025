@@ -60,7 +60,7 @@ Smooth prime Fano threefolds of degree 22 with infinite automorphism groups
 Normal stable degenerations of Noether-Horikawa surfaces
 3. 14:00--15:00 
 **山ノ井 克俊 (大阪大学)**<br>
-T.B.A.
+複素射影多様体の基本群の半単純代数群への表現とその応用
 4. 15:30--16:30 
 **千葉 優作 (お茶の水大学)**<br>
 ボーア・ゾンマーフェルト ラグランジュ部分多様体と正則切断の漸近挙動について
